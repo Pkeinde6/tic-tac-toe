@@ -1,5 +1,42 @@
-# Vue 3 + Vite
+# Tic Tac Toe (Vue 3 + Vite)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Petit projet d'entraînement front-end. Jeu Tic Tac Toe réactif avec UI simple.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- Démo: https://pkeinde6.github.io/tic-tac-toe/
+- Code: https://github.com/Pkeinde6/tic-tac-toe
+
+## Stack
+- Vue 3 (Composition API)
+- Vite 7
+- CSS (styles personnalisés)
+
+## Installation
+```bash
+# Cloner
+git clone https://github.com/Pkeinde6/tic-tac-toe
+cd tic-tac-toe
+
+# Installer
+npm install
+
+# Développement
+npm run dev
+
+# Build production
+npm run build
+```
+
+## Déploiement (GitHub Pages)
+Déployé automatiquement via GitHub Actions sur la branche `gh-pages`.
+
+## Fonctionnalités
+- Grille 3×3 et alternance des joueurs
+- Détection de victoire et match nul
+- Réinitialisation de la partie
+
+## Améliorations prévues
+- Mode IA (minimax)
+- Historique des coups + undo
+- Animations de victoire (CSS)
+- Accessibilité (focus, ARIA)
+- Tests (Vitest)
